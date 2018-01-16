@@ -1,6 +1,8 @@
 LoggerFileBackend
 =================
 
+Forked from onkel-dirtus' original simply to include missing handle_info call.
+
 A simple `Logger` backend which writes logs to a file. It does not handle log
 rotation for you, but it does tolerate log file renames, so it can be
 used in conjunction with external log rotation.
